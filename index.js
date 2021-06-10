@@ -32,7 +32,12 @@ const questions = [
     {
     type: 'input',
     message: 'What are the instructions for using your project?',
-    name: 'instructions',
+    name: 'usage',
+    },
+    {
+    type: 'input',
+    message: 'What are the instructions for testing your project?',
+    name: 'testing',
     },
     {
     type: 'input',
@@ -53,6 +58,7 @@ function writeToFile(fileName, data) {}
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
+    .then((answers) => console.log(answers))
 
 }
 
