@@ -27,12 +27,12 @@ const questions = [
     },
     {
     type: 'input',
-    message: 'Include a link to your deployed application',
+    message: 'Include a link to your deployed application:',
     name: 'applink',
     },
     {
     type: 'input',
-    message: 'Write a short description for your project.',
+    message: 'Write a short description for your project:',
     name: 'description',
     },
     {

@@ -41,7 +41,7 @@ function generateMarkdown(answers) {
   ${answers.testing}
 
   ## Collaborators
-  ${answers.installation}
+  ${answers.collaborators}
 
   ## License
   ${answers.license}
