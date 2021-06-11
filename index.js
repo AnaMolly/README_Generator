@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer")
 const generateMarkdown = require("./utils/generateMarkdown")
 
-// TODO: Create an array of questions for user input
+// An array of questions for user input
 const questions = [
     {
     type: 'input',
@@ -27,17 +27,12 @@ const questions = [
     },
     {
     type: 'input',
-    message: 'Include a link to your deployed application:',
-    name: 'applink',
-    },
-    {
-    type: 'input',
     message: 'Write a short description for your project:',
     name: 'description',
     },
     {
     type: 'input',
-    message: 'Screenshot of the application. What is the screenshot filepath?',
+    message: 'Screenshot/Gif of your application. What is the screenshot/gif filepath?',
     name: 'screenshot',
     },
     {
@@ -47,7 +42,7 @@ const questions = [
     },
     {
     type: 'input',
-    message: 'What are the instructions for using your project?',
+    message: 'Please provide any relevant usage information about your project:',
     name: 'usage',
     },
     {
@@ -64,18 +59,16 @@ const questions = [
     type: 'list',
     message: 'Choose a license for your project:',
     name: 'license',
-    choices: ['MIT', 'Apache 2.0', 'GPLv2',  'GPLv3', 'LGPLv3', 'AGPLv3', 'Mozilla 2.0', 'Boost Software License', 'Unlicense']
+    choices: ['MIT', 'Apache 2.0', 'GPLv2',  'GPLv3', 'LGPLv3', 'AGPLv3', 'Mozilla 2.0', 'Unlicense']
     }
 ];
 
 
-
-
-// TODO: Create a function to initialize app
+// A function to initialize app
 function init() {
     inquirer.prompt(questions)
     .then((answers) => 
-    fs.writeFile('README.md',generateMarkdown(answers), (err) => err ? console.error(err) : console.log('Your README file has been generated!')))
+    fs.writeFile('README.md',generateMarkdown(answers), (err) => err ? console.error(err) : console.log('Generating your README file!')))
     
 }
 
