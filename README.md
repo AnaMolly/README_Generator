@@ -5,7 +5,7 @@
   ## Description
   This is simple JavaScript application that generates a high-quality `README.md` for the user's repository. Including a `README.md` in every repository is highly encouraged as it provides an explanation of the project, how to install, use and test the project as well as contributors and appropriate licenses. Providing this information enables viewers to quickly read and understand aspects of the project without having to view the source code.
 
-  This application was built with JavaScript.
+  This application was built with JavaScript. This README was generated using this application.
   ![]()
 
   # Table of Contents
