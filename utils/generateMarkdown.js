@@ -22,36 +22,31 @@ function generateMarkdown(answers) {
 
   ${answers.license}
 
-  ## Table of Contents
-  - [Deployed URL](#deployed-url)
-  - [Description](#description)
-  - [Installation Instructions](#installation-instructions)
-  - [Usage Instructions](#usage-instructions)
-  - [Test Instructions](#test-instructions)
-  - [Collaborators](#collaborators)
-  - [License](#license)
-  - [Questions](#questions)
-
-  ## Deployed URL
-  ${answers.applink}
-
   ## Description
   ${answers.description}
   ![](${answers.screenshot})
 
-  ## Installation Instructions
+  # Table of Contents
+  - [Installation Instructions](#installation-instructions)
+  - [Usage Instructions](#usage)
+  - [Test Instructions](#tests)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Questions](#questions)
+
+  # Installation Instructions
   ${answers.installation}
 
-  ## Usage Instructions
+  # Usage
   ${answers.usage}
 
-  ## Test Instructions
+  # Tests
   ${answers.testing}
 
-  ## Collaborators
+  # Contributing
   ${answers.collaborators}
 
-  ## License
+  # License
   ${answers.license}
   
   # Questions
