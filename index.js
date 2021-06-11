@@ -52,7 +52,7 @@ const questions = [
     },
     {
     type: 'input',
-    message: 'Include any collaborators and a link to their GitHub:',
+    message: 'Include any collaborators and a link to their GitHub. (Please type "N/A" if not applicable).',
     name: 'collaborators',
     },
     {

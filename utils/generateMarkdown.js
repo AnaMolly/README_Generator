@@ -47,6 +47,8 @@ function generateMarkdown(answers) {
   ${answers.collaborators}
 
   # License
+  Click on the badge to learn more about this license:
+
   ${answers.license}
   
   # Questions
