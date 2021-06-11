@@ -3,8 +3,8 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  This is simple Javascript application that generates a high-quality `README.md` for the user's repository. Including a `README.md` in every repository is highly encouraged as it provides an  explanation of the project, how to install, use and test the project as well as contributors and appropriate licenses. Providing this information enables viewers to quickly read and understand aspects of the project without having to view the source code.
-  ![](https://drive.google.com/file/d/1VjUEXCXF5TmO3t8ufo_AEXnvU2EjH1Hi/view)
+  This is simple JavaScript application that generates a high-quality `README.md` for the user's repository. Including a `README.md` in every repository is highly encouraged as it provides an  explanation of the project, how to install, use and test the project as well as contributors and appropriate licenses. Providing this information enables viewers to quickly read and understand aspects of the project without having to view the source code.
+ 
 
   # Table of Contents
   - [Installation Instructions](#installation-instructions)
@@ -19,6 +19,7 @@
 
   # Usage
   Run 'node index.js' in the terminal to be prompted the questions. Answer all questions if possible. When answering the questions, press 'Enter' to go to the next question.
+  ![](./assets/README_Generator.gif)
 
   # Tests
   Please refer to Installation and Usage Instructions above.
