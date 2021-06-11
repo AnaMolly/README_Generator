@@ -21,6 +21,9 @@
 
   # Usage
   Run 'node index.js' in the terminal to be prompted the questions. Answer all questions if possible. When answering the questions, press 'Enter' to go to the next question.
+
+  See video here: https://www.youtube.com/watch?v=2QfMZW9vJro
+
   ![](./assets/README_Generator.gif)
 
   # Tests
